@@ -14,6 +14,7 @@ fun main() {
 
     while (opcao != 6) {
         when (opcao) {
+            
             1 -> salvarCliente(scanner)
             2 -> alterarCliente(scanner)
             3 -> pesquisarCliente(scanner)
